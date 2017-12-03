@@ -4,8 +4,8 @@
 public class ExeMain{  
     public static void main(String args[]){  
 		//Creating objects   
-		FileChecker filechecker=new FileChecker();  
-		filechecker.fileChecker();
+		FileCheck filecheck=new FileCheck();  
+		filecheck.fileCheck();
 		FileArrivalCheck filearrivalcheck=new FileArrivalCheck();  
 		filearrivalcheck.fileArrivalCheck();
 	}  
